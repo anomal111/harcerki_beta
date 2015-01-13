@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @issue.date %>
+</p>
+
+<p>
+  <strong>Mark:</strong>
+  <%= @issue.mark %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @issue.title %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <img src="<%= @issue.picture %>" alt="<%= @issue.title %>">
+</p>
+
+<p>
+  <strong>Volume:</strong>
+  <%= @issue.volume %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @issue.price %>
+</p>
+
+<%= link_to 'Edit', edit_issue_path(@issue) %> |
+<%= link_to 'Back', issues_path %>

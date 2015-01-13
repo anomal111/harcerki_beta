@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ordinal: 1
+  amount: 1
+  completed: false
+  price: 1
+  references: 
+  references: 
+
+two:
+  ordinal: 1
+  amount: 1
+  completed: false
+  price: 1
+  references: 
+  references: 

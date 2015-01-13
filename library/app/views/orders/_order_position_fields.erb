@@ -1,0 +1,20 @@
+	<div class="field">
+    <%= f.label :ordinal %><br>
+    <%= f.number_field :ordinal %>
+  </div>
+  <div class="field">
+    <%= f.label :amount %><br>
+    <%= f.number_field :amount %>
+  </div>
+  <div class="field">
+    <%= f.label :completed %><br>
+    <%= f.check_box :completed %>
+  </div>
+  <div class="field">
+    <%= f.label :price %><br>
+    <%= f.number_field :price %>
+  </div>
+	
+	<div class="field_nested">
+	  	<%= f.select :issue_id, @issues %>
+	</div>

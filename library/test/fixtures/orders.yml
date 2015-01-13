@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  paid: 
+  deadline: 2015-01-13 20:54:29
+  status: MyString
+
+two:
+  paid: 
+  deadline: 2015-01-13 20:54:29
+  status: MyString
